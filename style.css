@@ -1,0 +1,50 @@
+.our-content {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        line-height: 2;
+        max-width: 600px;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 80px;
+}
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    float:right;
+} 
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(175, 231, 175);
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+.image {
+    -webkit-box-shadow: -1px 6px 21px 6px rgba(0,0,0,0.49);
+    -moz-box-shadow: -1px 6px 21px 6px rgba(0,0,0,0.49);
+    box-shadow: -1px 6px 21px 6px rgba(0,0,0,0.49);
+}
+
+button {
+    background-color:#af0000;
+    color: white;
+}
